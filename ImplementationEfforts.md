@@ -4,20 +4,23 @@ IPFS implementation in the Go language.
 
 > https://github.com/DeCentral-Budapest/go-ipfs
 
-* Added `ipfs name upload`
-* Added `ipfs swarm discover`
-* Using a forked libp2p to have a network independent of the main IPFS network
+* Added `ipfs name upload` ([PR](https://github.com/ipfs/go-ipfs/pull/3547))
+* Added `ipfs swarm discover` ([PR](https://github.com/ipfs/go-ipfs/pull/3540))
+* Using a forked [libp2p](#go-libp2p) to have a network independent of the main IPFS network
 * PRs were sent for the 2 added features, but they are not accepted yet by the
   upstream IPFS project
 
 ## ipfs-key
 
-A tool to generate IPFS private keys (identities)
+A tool to generate IPFS private keys (identities).
 
 > https://github.com/DeCentral-Budapest/ipfs-key
 
 * Integrated ed25519 cryptography for supporting IoP identities
 * PR was accepted and merged back
+* This is a sample implementation that can be reimplemented in other languages
+* It can also be integrated into applications as an external command-line
+  process
 
 ## ipns-gen
 
@@ -28,7 +31,7 @@ sharing the private key of the IPNS record.
 > https://github.com/DeCentral-Budapest/ipns-gen
 
 * This is a sample implementation that can be reimplemented in other languages
-* It also can be integrated into applications as an external command-line
+* It can also be integrated into applications as an external command-line
   process
 
 ## go-libp2p
@@ -55,21 +58,21 @@ buffers into formats that are easier to transfer over limited channels. Some of
 them are human readable, some of them are just prepared for technical
 limitations of a protocol that cannot transfer 8-bit binary.
 
-> https://github.com/DeCentral-Budapest/multibase
+> https://github.com/multiformats/multibase/commits?author=wigy-opensource-developer
 
-* Added "identity" encoding for channels that are capable of transfering
+* Added "identity" encoding for channels that are capable of transferring
   8-bit binaries
-* PR is accepted, but was not merged back yet
+* [PR](https://github.com/multiformats/multibase/pull/19) was accepted and was merged back
 
 ## go-multibase
 
-Implementation of multibase in the Go language.
+Implementation of [multibase](#multibase) in the Go language.
  
 > https://github.com/multiformats/go-multibase/commits?author=wigy-opensource-developer
 
-* Added "identity" encoding for channels that are capable of transfering
+* Added "identity" encoding for channels that are capable of transferring
   8-bit binaries
-* PR was accepted and merged back to https://github.com/multiformats/go-multibase
+* [PR](https://github.com/multiformats/go-multibase/pull/6) was accepted and merged back
 
 ## iptb
 
