@@ -14,10 +14,10 @@ IPFS implementation in the Go language.
 
 A tool to generate IPFS private keys (identities).
 
-> https://github.com/DeCentral-Budapest/ipfs-key
+> https://github.com/whyrusleeping/ipfs-key/commits?author=wigy-opensource-developer
 
 * Integrated ed25519 cryptography for supporting IoP identities
-* PR was accepted and merged back
+* [PR](https://github.com/whyrusleeping/ipfs-key/pull/6) was accepted and merged back
 * This is a sample implementation that can be reimplemented in other languages
 * It can also be integrated into applications as an external command-line
   process
