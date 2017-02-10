@@ -75,7 +75,7 @@ Establishing a relation between a CAN node and a service happens out-of-band, it
 Every service must either have a CAN node on the same system, or have an agreement with a CAN node. Therefore there is
 no need for a special "register service public key" message, the public key of the profile service needs to be just
 added to the configuration of the CAN node. All other messages on this interface needs to be
-[authenticated with some of those configured service public keys](AuthenticationOfMessages#current-state).
+[authenticated with some of those configured service public keys](AuthenticationOfMessages.md#current-state).
 
 - *Publish Content:* Input is an opaque byte array. If the content was successfully published on IPFS, the client gets
   back the hash IPFS calculated for that content and the CAN makes sure this content is available on the network at
