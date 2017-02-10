@@ -27,6 +27,8 @@ Start the node with `ipfs daemon` or create a script that starts it on your plat
 Before the first time you start the node, you need to run `ipfs init` to create the identity of this node on the IoP
 content addressed network.
 
+You can also refer to the upstream [Getting Started](https://ipfs.io/docs/getting-started/) manual, because most of the things behave the same in our fork.
+
 ## Contributions
 
 Feel free to send pull requests to the corresponding repositories. If you fixed something in the features added by the
