@@ -7,7 +7,7 @@ IPFS implementation in the Go language.
 * Added `ipfs name upload`
 * Added `ipfs swarm discover`
 * Using a forked libp2p to have a network independent of the main IPFS network
-* PRs were sent for the 1 added features, but they are not accepted yet by the
+* PRs were sent for the 2 added features, but they are not accepted yet by the
   upstream IPFS project
 
 ## ipfs-key
