@@ -1,4 +1,4 @@
-# IoP CAN Wiki Home
+# IoP CAN Specification
 
 This is the knowledge base for the content addressed network component of the Internet of People network.
 
