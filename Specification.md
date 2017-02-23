@@ -7,7 +7,7 @@ This is the knowledge base for the content addressed network component of the In
 - [Introduction](#introduction)
 - [The Naming System](#the-naming-system)
 - [The Proposed Implementation](#the-proposed-implementation)
-  - [Use-Cases for Authenticated Systems](#use-cases-for-authenticated-systems)
+  - [Use-Cases for Authenticated Services](#use-cases-for-authenticated-services)
   - [Use-Cases for Anyone](#use-cases-for-anyone)
   - [Typical Scenario](#typical-scenario)
 
