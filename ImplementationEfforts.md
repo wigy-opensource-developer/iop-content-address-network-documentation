@@ -2,7 +2,7 @@
 
 IPFS implementation in the Go language.
 
-> [Our fork](https://github.com/Fermat-ORG/go-ipfs)
+> [Our fork](https://github.com/Fermat-ORG/iop-content-address-network)
 
 * Added `ipfs name upload` ([PR](https://github.com/ipfs/go-ipfs/pull/3547))
 * Added `ipfs swarm discover` ([PR](https://github.com/ipfs/go-ipfs/pull/3540))
