@@ -39,7 +39,7 @@ sharing the private key of the IPNS record.
 Go implementation of the libp2p framework that enables building peer-to-peer
 overlay networks that are bootstrapped from some seed nodes.
 
-> [Our fork](https://github.com/Fermat-ORG/go-libp2p)
+> [Our fork](https://github.com/Fermat-ORG/iop-content-address-network-go-libp2p)
 
 * Changed the protocol identifier, the default port numbers and the hardcoded
   seed nodes.
