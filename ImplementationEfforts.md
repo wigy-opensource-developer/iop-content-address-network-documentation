@@ -28,7 +28,7 @@ A tool to generate and sign IPNS records on one machine, which can be then
 published on the IPFS network with `ipfs name upload` on another machine without
 sharing the private key of the IPNS record.
 
-> [Our source code](https://github.com/Fermat-ORG/iop-content-address-network-ipns-gen)
+> [Our source code](https://github.com/Fermat-ORG/iop-content-address-network-iptb)
 
 * This is a sample implementation that can be reimplemented in other languages
 * It can also be integrated into applications as an external command-line
