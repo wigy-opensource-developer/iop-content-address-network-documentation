@@ -48,8 +48,8 @@ overlay networks that are bootstrapped from some seed nodes.
   implementation onto the original IPFS network. Then we do not need to maintain
   this fork and the separate infrastructure.
 * Forks that are needed, because they depend on this repository:
-  * [go-floodsub](https://github.com/Fermat-ORG/go-floodsub)
-  * [go-libp2p-kad-dht](https://github.com/Fermat-ORG/go-libp2p-kad-dht)
+  * [go-floodsub](https://github.com/Fermat-ORG/iop-content-address-network-go-floodsub)
+  * [go-libp2p-kad-dht](https://github.com/Fermat-ORG/iop-content-address-network-go-libp2p-kad-dht)
 
 ## multibase
 
