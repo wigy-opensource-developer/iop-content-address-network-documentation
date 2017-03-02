@@ -79,7 +79,7 @@ Implementation of [multibase](#multibase) in the Go language.
 A tool for creating and managing a cluster of sandboxed IPFS nodes locally on a
 single computer for end-to-end testing.
 
-> [Our fork](https://github.com/Fermat-ORG/iptb)
+> [Our fork](https://github.com/Fermat-ORG/iop-content-address-network-iptb)
 
 * This tool depends on https://github.com/ipfs/go-ipfs so it needs to be forked
   with our version of it to get all end-to-end tests passing
