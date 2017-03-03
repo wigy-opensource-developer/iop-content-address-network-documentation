@@ -29,6 +29,29 @@ content addressed network.
 
 You can also refer to the upstream [Getting Started](https://ipfs.io/docs/getting-started/) manual, because most of the things behave the same in our fork.
 
+If you install the node [into the cloud](https://ipfs.io/blog/22-run-ipfs-on-a-vps/), your provider might mistake the built-in service discovery with some malicious port mapping activity. There is nothing to worry about service discovery, but you can easily turn it off and secure down your virtualized node from being connected from inside your provider by running these commands:
+
+```
+ipfs config --json Discovery.MDNS.Enabled false
+ipfs config --json Swarm.AddrFilters '[
+	"/ip4/10.0.0.0/ipcidr/8",
+	"/ip4/100.64.0.0/ipcidr/10",
+	"/ip4/169.254.0.0/ipcidr/16",
+	"/ip4/172.16.0.0/ipcidr/12",
+	"/ip4/192.0.0.0/ipcidr/24",
+	"/ip4/192.0.0.0/ipcidr/29",
+	"/ip4/192.0.0.8/ipcidr/32",
+	"/ip4/192.0.0.170/ipcidr/32",
+	"/ip4/192.0.0.171/ipcidr/32",
+	"/ip4/192.0.2.0/ipcidr/24",
+	"/ip4/192.168.0.0/ipcidr/16",
+	"/ip4/198.18.0.0/ipcidr/15",
+	"/ip4/198.51.100.0/ipcidr/24",
+	"/ip4/203.0.113.0/ipcidr/24",
+	"/ip4/240.0.0.0/ipcidr/4"
+]'
+```
+
 ## Contributions
 
 Feel free to send pull requests to the corresponding repositories. If you fixed something in the features added by the
