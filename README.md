@@ -59,6 +59,10 @@ Internet of People project, send the PR to our repositories. If you touched a fe
 you want to add a feature that would be useful to all IPFS users, we encourage you to send the PR to the upstream IPFS
 repositories. If they reject something, feel free to send us a PR to discuss it also with us.
 
+## Message Protocol
+
+The Message Protocols for this software can be found [here](https://github.com/Internet-of-People/message-protocol/blob/master/IopCan.proto).
+
 ## License
 
 [MIT](LICENSE) © 2016 [Fermat Foundation](http://www.fermat.org/)
